@@ -3,7 +3,7 @@ export default{
     render(image: Image){
         return {
             id: image.id,
-            url: `http://localhost:3333/uploads/${image.path}` //Melhorar isso com variáveis de ambiente
+            url: `http://192.168.100.14:3333/uploads/${image.path}` //Melhorar isso com variáveis de ambiente
         }
     },
 
